@@ -40,6 +40,17 @@ app.post("/api/todos", function (req, res) {
             new_todo.status = todo_status;
         }
         todo_db.todos[todo_db.next_todo_id++] = new_todo;
-        res.json(new_todo);
+        res.json(todo_db.todos);
+    }
+})
+app.put("/api/todos/:id",function(req, res){
+    var put_id = req.params.id;
+    var todo = todo_db.todos[put_id];
+    if(!todo || todo.status == todo_db.statusENUMS.DELETED){
+        res.status(400).json({error: "Todo does not exist"});
+    }
+    else{
+        todo.status = todo_db.statusENUMS.COMPLETE;
+        res.json(todo_db.todos);
     }
 })

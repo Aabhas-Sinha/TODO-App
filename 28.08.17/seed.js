@@ -5,8 +5,8 @@ DELETED : "DELETED",
 };
 var todos = {
     1 : {title :  "Learn Javascript", status: statusENUMS.ACTIVE},
-    2 : {title :  "Git tutorial", status: statusENUMS.ACTIVE},
-    3 : {title :  "Interactive Git", status: statusENUMS.ACTIVE}
+    2 : {title :  "Git tutorial", status: statusENUMS.COMPLETE},
+    3 : {title :  "Interactive Git", status: statusENUMS.DELETED}
 };
 var next_todo_id = 4;
 
