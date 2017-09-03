@@ -1,0 +1,30 @@
+# Todo App
+
+Rebuild Todo app with richer frontend using NodeJs,Express,Bootstrap.
+
+### Installation 
+
+1. Clone repository.
+2. Unzip folder to desired path.
+3. Change directory to that specific path
+4. Use npm install to get all the dependencies.
+5. Run command node index.js.
+6. Go to the browser at "localhost:4000/"
+7. Start using the todo app. 
+
+## Developed using
+* WebStrom
+* Google Chrome
+* Sublime
+
+## References
+1. w3schools.com
+2. https://bootsnipp.com
+3. https://www.tutorialspoint.com/bootstrap
+4. https://expressjs.com
+5. https://www.npmjs.com
+6. MDN web documentation
+
+### Author
+Aabhas Sinha
+mail.aabhassinha@gmail.com

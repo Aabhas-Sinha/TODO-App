@@ -1,0 +1,54 @@
+.blue-fade {
+    font-size: 25px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    ;
+    background-color: darkkhaki;
+    background: -webkit-linear-gradient(#1ba0d7, #002d3f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue-fade:hover {
+    opacity: 0.5;
+}
+
+
+.breathVertical {
+
+    margin-top:5px;
+
+    margin-bottom:5px;
+
+}
+.breathHorizontal {
+
+    margin-left:5px;
+
+    margin-right:5px;
+
+}
+div.todoStatusACTIVE {
+
+
+
+    color : blue;
+
+}
+div.todoStatusCOMPLETE{
+
+    color : darkgreen;
+
+    text-decoration : line-through;
+
+}
+div.todoStatusDELETED {
+
+    color : red;
+
+    text-decoration : line-through;
+
+
+
+}
+
