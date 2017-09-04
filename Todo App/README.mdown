@@ -5,7 +5,7 @@ Rebuild Todo app with richer frontend using NodeJs,Express,Bootstrap.
 ### Installation 
 
 1. Clone repository.
-2. Unzip folder to desired path.
+2. Unzip Todo App folder to desired path.
 3. Change directory to that specific path
 4. Use npm install to get all the dependencies.
 5. Run command node index.js.

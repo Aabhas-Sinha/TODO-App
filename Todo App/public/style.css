@@ -13,6 +13,10 @@
     opacity: 0.5;
 }
 
+span.activeClass{
+    color: black;
+    font-family: Tahoma;
+}
 
 .breathVertical {
 
