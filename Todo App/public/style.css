@@ -8,7 +8,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+h1.mytodo{
 
+}
 .blue-fade:hover {
     opacity: 0.5;
 }
